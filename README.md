@@ -1,6 +1,7 @@
 # CUDA FFT 誤差解析リポジトリ
 
 2 つの CUDA 実験（Experiment 1/2）をまとめたリポジトリです。どちらも自前実装の FFT を用いて GPU 上での誤差特性を記録し、CPU の倍精度 FFT を正解として比較することで、LUT 方式と高速近似方式（`__sincosf`）の差分を可視化します。
+記事はこちらhttps://zenn.dev/toropippi/articles/3c4d8d61a5aa28  
 
 ## ディレクトリ構成
 - `experiment1/`: 多倍長整数の畳み込みを FFT で実行し、係数ごとの差分を CSV/TXT 出力
@@ -26,10 +27,3 @@ nvcc -O3 -std=c++17 experiment2.cu -o experiment2_run
 ```
 - `--digits`, `--lengths`, `--signals`, `--base`, `--seed`, `--output` などのオプションは各ディレクトリ内の README を参照してください。
 - 解析用 Python スクリプトは `experiment*/python/` に配置し、`--data` / `--figures` オプションで出力先を指定する想定です。
-
-## 公開時のメモ
-- 実験バイナリ（`experiment*_run.*`）はビルド済みサンプルです。不要な場合は `.gitignore` などで除外してから公開してください。
-- 生成物の例（CSV/図）は `experiment*/data/` や `experiment*/figures/` にあります。必要に応じてサンプルのみ残すか、空ディレクトリにしておくとクリーンです。
-
-## ライセンス・引用
-公開リポジトリにする際は、使用しているデータやコードに応じてライセンス表記を追加してください（例: MIT License）。記事やブログに引用する場合は、各実験の README へのリンクを併記すると構成が伝わりやすくなります。
