@@ -1,0 +1,13 @@
+# The paper itself is published on arXiv; only paper/tools is part of this
+# repository's public data release (see the paper's Data Availability section).
+/main.tex
+/main.pdf
+/main_ja.tex
+/main_ja.pdf
+/figures/
+/README.md
+__pycache__/
+*.aux
+*.log
+*.out
+*.synctex.gz
