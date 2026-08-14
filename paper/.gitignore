@@ -11,3 +11,4 @@ __pycache__/
 *.log
 *.out
 *.synctex.gz
+/main_ja_v2.pdf

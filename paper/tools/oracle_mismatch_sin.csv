@@ -1,0 +1,3 @@
+input_bits,double_ref_bits,cr_bits,input_val,double_ref,cr_val
+46199998,beb1fa5e,beb1fa5d,np.float32(9830.398),np.float32(-0.34761328),np.float32(-0.34761325)
+c6199998,3eb1fa5e,3eb1fa5d,np.float32(-9830.398),np.float32(0.34761328),np.float32(0.34761325)

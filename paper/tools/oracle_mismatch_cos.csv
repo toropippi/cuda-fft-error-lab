@@ -1,0 +1,5 @@
+input_bits,double_ref_bits,cr_bits,input_val,double_ref,cr_val
+5f18b878,3f7f14bc,3f7f14bb,np.float32(1.1004678e+19),np.float32(0.99641013),np.float32(0.9964101)
+6115cb11,3f78142e,3f78142f,np.float32(1.7269983e+20),np.float32(0.9690579),np.float32(0.969058)
+df18b878,3f7f14bc,3f7f14bb,np.float32(-1.1004678e+19),np.float32(0.99641013),np.float32(0.9964101)
+e115cb11,3f78142e,3f78142f,np.float32(-1.7269983e+20),np.float32(0.9690579),np.float32(0.969058)
